@@ -1,0 +1,140 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [:flutter] D:\TEST\flutter_study\.android\Flutter\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:3:1-14:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f4b8014c0762fea71442bdc24312269a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\97edaec2651b273ebb40d090997eaa59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7b85d991b90c4437a9cf51cb57471e9c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\53ac253d17dc01b174695ca2b218a538\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5d38fc680ab5dc8ee269f6208fb817da\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\936f2986ba8cafd2ecbe7f2cf23caf53\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b278527d6f81b5dd60f0f2fa50dd1adf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\1c20fdc2b27d1ce16c51bff03effd3bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0b1f8bb3bb8fc98d9ff3f4d8bf772f1b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b87a0b5d6be4628760d265964770b92b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bda6292c1587e91806ceee5c65f0e710\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ea0cd7e2f80f061355dc02edb85a0113\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\3b94859660c3cb57b7c75681aa5baa55\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8b2cc60e79cbe642a8f586cad0496d16\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\39a4806b7ddbcf684b1e1000eeb1e267\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\897ee052ba33ee179d17ae07bc81c232\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\db2faa16f85c3d180732b71a69975398\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bc98577ae64284d00f3bcdf1fcf1378\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:3:11-58
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:1-40:12
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:9:5-66
+MERGED from [:flutter] D:\TEST\flutter_study\.android\Flutter\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-67
+MERGED from [:flutter] D:\TEST\flutter_study\.android\Flutter\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:16:5-39:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7b85d991b90c4437a9cf51cb57471e9c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7b85d991b90c4437a9cf51cb57471e9c\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:18:9-38
+	android:icon
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:19:9-43
+	android:name
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:17:9-57
+activity#com.berlski.flutter.flutterstudy.host.MainActivity
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:20:9-38:20
+	android:launchMode
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:22:13-43
+	android:hardwareAccelerated
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:25:13-47
+	android:windowSoftInputMode
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:26:13-55
+	android:configChanges
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:24:13-137
+	android:theme
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:23:13-47
+	android:name
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:21:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:31:13-33:40
+	android:value
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:33:17-37
+	android:name
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:32:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:35:17-68
+	android:name
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+MERGED from [:flutter] D:\TEST\flutter_study\.android\Flutter\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-10:41
+MERGED from [:flutter] D:\TEST\flutter_study\.android\Flutter\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f4b8014c0762fea71442bdc24312269a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\f4b8014c0762fea71442bdc24312269a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\97edaec2651b273ebb40d090997eaa59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\97edaec2651b273ebb40d090997eaa59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7b85d991b90c4437a9cf51cb57471e9c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7b85d991b90c4437a9cf51cb57471e9c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\53ac253d17dc01b174695ca2b218a538\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.1.aar\53ac253d17dc01b174695ca2b218a538\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5d38fc680ab5dc8ee269f6208fb817da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5d38fc680ab5dc8ee269f6208fb817da\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\936f2986ba8cafd2ecbe7f2cf23caf53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\936f2986ba8cafd2ecbe7f2cf23caf53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b278527d6f81b5dd60f0f2fa50dd1adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\b278527d6f81b5dd60f0f2fa50dd1adf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\1c20fdc2b27d1ce16c51bff03effd3bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\1c20fdc2b27d1ce16c51bff03effd3bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0b1f8bb3bb8fc98d9ff3f4d8bf772f1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\0b1f8bb3bb8fc98d9ff3f4d8bf772f1b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b87a0b5d6be4628760d265964770b92b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b87a0b5d6be4628760d265964770b92b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bda6292c1587e91806ceee5c65f0e710\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\bda6292c1587e91806ceee5c65f0e710\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ea0cd7e2f80f061355dc02edb85a0113\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\ea0cd7e2f80f061355dc02edb85a0113\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\3b94859660c3cb57b7c75681aa5baa55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\3b94859660c3cb57b7c75681aa5baa55\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8b2cc60e79cbe642a8f586cad0496d16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8b2cc60e79cbe642a8f586cad0496d16\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\39a4806b7ddbcf684b1e1000eeb1e267\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\39a4806b7ddbcf684b1e1000eeb1e267\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\897ee052ba33ee179d17ae07bc81c232\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\897ee052ba33ee179d17ae07bc81c232\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\db2faa16f85c3d180732b71a69975398\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\db2faa16f85c3d180732b71a69975398\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bc98577ae64284d00f3bcdf1fcf1378\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\ccp\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8bc98577ae64284d00f3bcdf1fcf1378\AndroidManifest.xml:20:5-44
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		ADDED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\TEST\flutter_study\.android\app\src\main\AndroidManifest.xml
