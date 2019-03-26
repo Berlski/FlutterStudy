@@ -1,2 +1,8 @@
-# FlutterStudy
-flutter学习，每个分支都是一个不同的demo
+# flutter_study
+
+A new Flutter module.
+
+## Getting Started
+
+For help getting started with Flutter, view our online
+[documentation](https://flutter.io/).
