@@ -47,10 +47,11 @@ class MyHome extends StatelessWidget {
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: Text(title),
+        title: new Text(title),
       ),
       body: new Center(
         child: new Container(
+          //获取主题的 accentColor
           color: Theme.of(context).accentColor,
           child: new Text(
             '带有背景颜色的文本组件',
@@ -59,6 +60,7 @@ class MyHome extends StatelessWidget {
         ),
       ),
       floatingActionButton: new Theme(
+        //使用 copyWith 的方式获取 accentColor
           data: Theme.of(context).copyWith(accentColor: Colors.grey),
           child: new FloatingActionButton(
             onPressed: null,
