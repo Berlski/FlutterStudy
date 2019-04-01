@@ -1,74 +1,86 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-void main() {
-  runApp(MaApp());
-}
+void main() => runApp(MyApp());
 
-class MaApp extends StatelessWidget {
+//MyApp 不需要做状态处理 所以此组件继承 StatelessWidget
+class MyApp extends StatelessWidget {
+  //这个组件是整个应用的主组件
   @override
   Widget build(BuildContext context) {
-    final appName = '自定义主题';
-
-    if (Platform.isAndroid) {
-      // 以下两行 设置android状态栏为透明的沉浸。写在组件渲染之后，是为了在渲染后进行set赋值，覆盖状态栏，写在渲染之前MaterialApp组件会覆盖掉这个值。
-      SystemUiOverlayStyle systemUiOverlayStyle =
-      SystemUiOverlayStyle(statusBarColor: Colors.transparent);
-      SystemChrome.setSystemUIOverlayStyle(systemUiOverlayStyle);
-    }
-
     return new MaterialApp(
-      title: appName,
-      theme: new ThemeData(
-        //应用程序整体主题的亮度 ,内容部分的亮度
-        brightness: Brightness.light,
-        //APP主要部分的背景颜色，标题栏的颜色
-        primaryColor: Colors.red,
-        //前景色：文本、按钮等
-        accentColor: Colors.orange,
-        textSelectionColor: Colors.white,
+      title: '标题',
+      home: new MyHomePage(
+        title: 'asfs',
       ),
-      home: new MyHome(
-        title: appName,
+      theme: new ThemeData(
+        accentColor: Colors.red,
+        primaryColor: Colors.red,
+        brightness: Brightness.light,
       ),
     );
   }
 }
 
-class MyHome extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
+  //标题
   final String title;
 
-  const MyHome({Key key, this.title}) : super(key: key);
+  MyHomePage({Key key, this.title}) : super(key: key);
+
+  //必须重写 createState 方法
+  @override
+  _MyHomePagerState createState() => new _MyHomePagerState();
+}
+
+//状态类必须继承 State 类，注意后面需要指定为<MyHomePage>
+class _MyHomePagerState extends State<MyHomePage> {
+  int _counter = 0;
+
+  //函数调用 State 中的 setState 方法，来更改状态值，使变量变化
+  void _incrementCounter() {
+    setState(() {
+      //计数器变量，每次被调用数值加一
+      _counter++;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text(title),
-      ),
-      body: new Center(
-        child: new Container(
-          //获取主题的 accentColor
-          color: Theme.of(context).accentColor,
-          child: new Text(
-            '带有背景颜色的文本组件',
-            style: Theme.of(context).textTheme.title,
-          ),
+        title: new Text(
+          '$_counter',
         ),
       ),
-      floatingActionButton: new Theme(
-        //使用 copyWith 的方式获取 accentColor
-          data: Theme.of(context).copyWith(accentColor: Colors.grey),
-          child: new FloatingActionButton(
-            onPressed: null,
-            child: new Icon(
-              Icons.computer,
-              color: Colors.white,
+
+      //居中布局
+      body: new Center(
+        //垂直布局（满屏）
+        child: new Column(
+          //主轴居中对齐
+          mainAxisAlignment: MainAxisAlignment.center,
+
+          //子组件数组
+          children: <Widget>[
+            new Text(
+              '这是一个神奇的按钮' + '$_counter',
+              style: Theme.of(context).textTheme.body1,
             ),
-          )),
+            new Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.body2,
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: new FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'icon',
+        child: new Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
+      ),
     );
   }
 }
