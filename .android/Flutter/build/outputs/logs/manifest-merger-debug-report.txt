@@ -8,7 +8,7 @@ INJECTED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xm
 INJECTED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xml:2:1-5:12
 	package
-		ADDED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xml:3:5-47
+		ADDED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xml
 		INJECTED from D:\TEST\flutter_study\.android\Flutter\src\main\AndroidManifest.xml
 	android:versionName

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.berlski.flutter.flutterstudy.host"
+    package="com.berlski.flutter.host"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -27,7 +27,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="flutter_study" >
         <activity
-            android:name="com.berlski.flutter.flutterstudy.host.MainActivity"
+            android:name="com.berlski.flutter.host.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"

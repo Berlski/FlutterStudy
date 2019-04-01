@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 26 20:45:37 CST 2019
+#Mon Apr 01 11:14:22 CST 2019
 4.path=flutter_assets/FontManifest.json
 8.set=ASSET
 6.path=flutter_assets/vm_snapshot_data

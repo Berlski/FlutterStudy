@@ -1,4 +1,4 @@
-com.berlski.flutter.flutterstudy
+com.berlski.flutter
 attr coordinatorLayoutStyle
 attr font
 attr fontProviderAuthority

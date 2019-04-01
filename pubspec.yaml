@@ -77,5 +77,5 @@ flutter:
   # They also do not have any bearing on your native host application's
   # identifiers, which may be completely independent or the same as these.
   module:
-    androidPackage: com.berlski.flutter.flutterstudy
-    iosBundleIdentifier: com.berlski.flutter.flutterStudy
+    androidPackage: com.berlski.flutter
+    iosBundleIdentifier: com.berlski.flutter
