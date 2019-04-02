@@ -1,34 +1,34 @@
 #Internal package file, do not edit.
-#Tue Apr 02 14:49:38 CST 2019
-4.path=flutter_assets/FontManifest.json
+#Tue Apr 02 16:31:48 CST 2019
+4.path=flutter_assets/AssetManifest.json
 8.set=ASSET
-6.path=flutter_assets/vm_snapshot_data
+6.path=flutter_assets/kernel_blob.bin
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
 1.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 8.path=flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
-3.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+3.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 4.set=ASSET
 5.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-7.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+7.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 11.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 9.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 1.baseType=DIRECTORY
 11.set=NATIVE_RESOURCE
 0.set=ASSET
 6.baseType=DIRECTORY
-7.set=NATIVE_RESOURCE
-3.set=ASSET
+7.set=ASSET
+3.set=NATIVE_RESOURCE
 2.baseType=DIRECTORY
 10.baseType=DIRECTORY
 1.path=flutter_assets/LICENSE
 7.baseType=DIRECTORY
-3.path=flutter_assets/AssetManifest.json
+3.path=lib/armeabi-v7a/libflutter.so
 10.set=DEX
-5.path=flutter_assets/kernel_blob.bin
+5.path=flutter_assets/FontManifest.json
 0.base=D\:\\TEST\\flutter_study\\build\\host\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-7.path=lib/arm64-v8a/libflutter.so
+7.path=flutter_assets/vm_snapshot_data
 11.path=lib/x86/libflutter.so
 9.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
 6.set=ASSET

@@ -1,29 +1,50 @@
+import 'dart:convert';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  void getData() async {
+    try {
+      //实例化一个HttpClient对象
+      HttpClient httpClient = new HttpClient();
+
+      //发起请求
+      HttpClientRequest request = await httpClient.getUrl(
+          Uri.parse("http://t.weather.sojson.com/api/weather/city/101200101"));
+
+      //等待服务器返回数据
+      HttpClientResponse response = await request.close();
+
+      //使用utf8.decoder 从 response 里解析数据
+      var result = await response.transform(utf8.decoder).join();
+
+      //输出响应头
+      print(result);
+
+      httpClient.close();
+    } catch (e) {
+      //输出响应头
+      print(e);
+    } finally {
+      print('请求结束!');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'http请求示例',
+      title: '使用HttpClient网络请求',
       home: new Scaffold(
         appBar: new AppBar(
-          title: new Text('http请求示例'),
+          title: new Text('HttpClient网络请求'),
         ),
-        body: Center(
-          child: RaisedButton(
-            onPressed: () {
-              var url = 'http://httpbin.org';
-              //向url指向的地址发起get请求
-
-              http.get(url).then((response) {
-                print("状态：${response.statusCode}");
-                print("正文：${response.body}");
-              });
-            },
-            child: new Text('开启网络请求'),
+        body: new Center(
+          child: new RaisedButton(
+            onPressed: getData,
+            child: new Text('开启HttpClient网络请求'),
           ),
         ),
       ),
