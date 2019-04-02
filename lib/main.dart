@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:http/http.dart' as http;
 
 void main() => runApp(MyApp());
 
@@ -7,21 +7,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: '使用第三方库',
+      title: 'http请求示例',
       home: new Scaffold(
         appBar: new AppBar(
-          title: new Text('使用第三方库'),
+          title: new Text('http请求示例'),
         ),
-        body: new Center(
-          child: new RaisedButton(
-            color: Colors.white,
+        body: Center(
+          child: RaisedButton(
             onPressed: () {
-              //指定url 并发起请求
-              const url ='https://www.baidu.com';
-              launch(url);
-            },
+              var url = 'http://httpbin.org';
+              //向url指向的地址发起get请求
 
-            child: new Text('打开百度'),
+              http.get(url).then((response) {
+                print("状态：${response.statusCode}");
+                print("正文：${response.body}");
+              });
+            },
+            child: new Text('开启网络请求'),
           ),
         ),
       ),
