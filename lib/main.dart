@@ -1,53 +1,46 @@
-import 'dart:convert';
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+class DidiSample extends StatefulWidget {
+  @override
+  _DidiSampleState createState() => _DidiSampleState();
+}
 
-class MyApp extends StatelessWidget {
-  void getData() async {
-    try {
-      //实例化一个HttpClient对象
-      HttpClient httpClient = new HttpClient();
+class _DidiSampleState extends State<DidiSample> {
+  Choice selecteChoice = choices[0];
 
-      //发起请求
-      HttpClientRequest request = await httpClient.getUrl(
-          Uri.parse("http://t.weather.sojson.com/api/weather/city/101200101"));
-
-      //等待服务器返回数据
-      HttpClientResponse response = await request.close();
-
-      //使用utf8.decoder 从 response 里解析数据
-      var result = await response.transform(utf8.decoder).join();
-
-      //输出响应头
-      print(result);
-
-      httpClient.close();
-    } catch (e) {
-      //输出响应头
-      print(e);
-    } finally {
-      print('请求结束!');
-    }
+  _selecte(Choice choice) {
+    setState(() {
+      selecteChoice = choice;
+    });
   }
 
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      title: '使用HttpClient网络请求',
-      home: new Scaffold(
-        appBar: new AppBar(
-          title: new Text('HttpClient网络请求'),
-        ),
-        body: new Center(
-          child: new RaisedButton(
-            onPressed: getData,
-            child: new Text('开启HttpClient网络请求'),
-          ),
-        ),
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('滴滴出行'),
+        actions: <Widget>[
+          new IconButton(icon: new Icon(choices[0].iconData), onPressed: null),
+          new IconButton(icon: new Icon(choices[0].iconData), onPressed: null),
+        ],
       ),
     );
   }
 }
+
+class Choice {
+  final String title;
+  final IconData iconData;
+
+  Choice({this.title, this.iconData});
+}
+
+List<Choice> choices = <Choice>[
+  Choice(title: '自驾', iconData: Icons.directions_car),
+  Choice(title: '自行车', iconData: Icons.directions_bike),
+  Choice(title: '公交车', iconData: Icons.directions_bus),
+  Choice(title: '地铁', iconData: Icons.directions_subway),
+  Choice(title: '火车', iconData: Icons.directions_railway),
+  Choice(title: '轮渡', iconData: Icons.directions_boat),
+  Choice(title: '步行', iconData: Icons.directions_walk),
+];
